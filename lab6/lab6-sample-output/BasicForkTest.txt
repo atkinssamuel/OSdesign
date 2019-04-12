@@ -1,0 +1,20 @@
+Beginning execution...
+====================  KPL PROGRAM STARTING  ====================
+Initializing Thread Scheduler...
+Initializing Thread Manager...
+Initializing Frame Manager...
+AllocateRandomFrames called.  NUMBER_OF_PHYSICAL_PAGE_FRAMES = 512
+Initializing Disk Driver...
+Initializing File Manager...
+
+BasicForkTest running.
+
+I am the child
+I am the parent
+Done!  The next instruction to execute will be:
+001138: 09000000       ret     
+Number of Disk Reads    = 11
+Number of Disk Writes   = 0
+Instructions Executed   = 3416856
+Time Spent Sleeping     = 10958
+    Total Elapsed Time  = 3427814

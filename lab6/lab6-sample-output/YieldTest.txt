@@ -1,0 +1,65 @@
+Beginning execution...
+====================  KPL PROGRAM STARTING  ====================
+Initializing Thread Scheduler...
+Initializing Thread Manager...
+Initializing Frame Manager...
+AllocateRandomFrames called.  NUMBER_OF_PHYSICAL_PAGE_FRAMES = 512
+Initializing Disk Driver...
+Initializing File Manager...
+
+YieldTest running.
+
+This test involves calls to Fork, Yield, and Exit.
+
+RUN ONE: You should see 10 'compiler' messages and 10 'OS' messages.
+
+Designing compilers is fun!
+Designing compilers is fun!
+Designing compilers is fun!
+Designing compilers is fun!
+Designing compilers is fun!
+Designing compilers is fun!
+Designing compilers is fun!
+Designing compilers is fun!
+Designing compilers is fun!
+Designing compilers is fun!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+
+RUN TWO: You should see the same 20 messages, but the order should be different, due to the presence of 'Yield's.
+
+Designing compilers is fun!
+Designing compilers is fun!
+Writing OS kernel code is a blast!
+Designing compilers is fun!
+Designing compilers is fun!
+Writing OS kernel code is a blast!
+Designing compilers is fun!
+Writing OS kernel code is a blast!
+Designing compilers is fun!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Designing compilers is fun!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Writing OS kernel code is a blast!
+Designing compilers is fun!
+Designing compilers is fun!
+Designing compilers is fun!
+Done!  The next instruction to execute will be:
+001138: 09000000       ret     
+Number of Disk Reads    = 11
+Number of Disk Writes   = 0
+Instructions Executed   = 3972621
+Time Spent Sleeping     = 10958
+    Total Elapsed Time  = 3983579

@@ -1,0 +1,30 @@
+Beginning execution...
+====================  KPL PROGRAM STARTING  ====================
+Initializing Thread Scheduler...
+Initializing Thread Manager...
+Initializing Frame Manager...
+AllocateRandomFrames called.  NUMBER_OF_PHYSICAL_PAGE_FRAMES = 512
+Initializing Disk Driver...
+Initializing File Manager...
+
+ManyProcessesTest3 running.
+
+This test attempts to create 10 new processes.
+It should run out of resources and hang.
+Process 0
+Process 1
+Process 2
+Process 3
+Process 4
+Process 5
+Process 6
+Process 7
+Process 8
+Process 9
+Done!  The next instruction to execute will be:
+001138: 09000000       ret     
+Number of Disk Reads    = 11
+Number of Disk Writes   = 0
+Instructions Executed   = 5457466
+Time Spent Sleeping     = 10958
+    Total Elapsed Time  = 5468424
